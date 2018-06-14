@@ -10,7 +10,7 @@ import UIKit
 import AppCenter
 import AppCenterAnalytics
 import AppCenterCrashes
-//import AppCenterPush
+import AppCenterPush
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,8 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         MSAppCenter.start("fb062b5a-cf82-4d0c-9d7c-40984a3fae7d", withServices:[
             MSAnalytics.self,
-            MSCrashes.self
-//            MSPush.self
+            MSCrashes.self,
+            MSPush.self
             ])
         return true
     }
