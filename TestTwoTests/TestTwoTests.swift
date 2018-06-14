@@ -24,5 +24,8 @@ class TestTwoTests: XCTestCase {
         let vc = ViewController()
         XCTAssertEqual(4, vc.add(a: 2, b: 2))
     }
-    
+    func testMinus() {
+        let vc = ViewController()
+        XCTAssertEqual(2, vc.minus(a: 4, b: 2))
+    }
 }

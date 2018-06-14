@@ -45,12 +45,11 @@
 		19E2F274AB516F8780EE97312146351B /* Pods-TestTwoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestTwoTests-dummy.m"; sourceTree = "<group>"; };
 		23EB30944AA71A598AB4BE6B7132AB6A /* Pods-TestTwo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestTwo-resources.sh"; sourceTree = "<group>"; };
 		262D28A152ED534ACE22C3D0A8E261CF /* Pods-TestTwo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestTwo-umbrella.h"; sourceTree = "<group>"; };
-		275DEAAB07AB38756C25FF9F36046103 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
 		324CD32940E6463812748F2CD0245A07 /* Pods-TestTwo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestTwo-dummy.m"; sourceTree = "<group>"; };
 		35AB39F3EEF50C6B35C8FB0F675E936B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38090783CEDC910C44630014EE3B6CA3 /* Pods-TestTwoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestTwoUITests-frameworks.sh"; sourceTree = "<group>"; };
 		4BC1EA2DCEBF846D1390C6121A80D04D /* Pods-TestTwoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestTwoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5351CBD2DE9358535B624F45830298EA /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		53A158CE3C0C4CE842F9F8C142DB9821 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
 		547797F058C724AD33F4703ED73D7189 /* Pods_TestTwoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestTwoTests.framework; path = "Pods-TestTwoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		571FCBCDFB58A12937292EEAA7A5B35C /* Pods-TestTwoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestTwoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,6 +59,7 @@
 		80A256FE46B80E46184D4426FE49E265 /* Pods-TestTwoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwoTests.release.xcconfig"; sourceTree = "<group>"; };
 		9311E5F83AC98A0243E4520F8B37B5D4 /* Pods-TestTwoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9454C46A42EE2F6A8F78EBBD99E6347B /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
 		9EBFADD28A6008A164CBEC055E365D10 /* Pods-TestTwoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F9879AE24E4E2DBA9B53F2B2A905ABD /* Pods-TestTwo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestTwo.modulemap"; sourceTree = "<group>"; };
 		A99A4707D2A3B3805D477B33DD5CF38D /* Pods-TestTwoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestTwoUITests-resources.sh"; sourceTree = "<group>"; };
@@ -68,9 +68,10 @@
 		AD43740389F5AD5E1517B75315BF44E5 /* Pods-TestTwoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestTwoUITests.modulemap"; sourceTree = "<group>"; };
 		ADB11EFAB2F349FFE5216EC245995AA9 /* Pods-TestTwoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B732C0FFE9D7ADFE1D595BA4AB915804 /* Pods-TestTwoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestTwoTests-frameworks.sh"; sourceTree = "<group>"; };
-		BD267D828AE1E034D07B6E89399D3E89 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		BD489CE0CC1A7D81815C5000387851FB /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
 		CCCC3DA274FE245F6E7B00FDAA10E867 /* Pods-TestTwoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestTwoUITests-umbrella.h"; sourceTree = "<group>"; };
 		CD05E65A69334B9C9E4DBDC35C2597B1 /* Pods-TestTwoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestTwoUITests-dummy.m"; sourceTree = "<group>"; };
+		E37CA864159FBF3DEE874F4F3805C8EA /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterPush.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterPush.framework"; sourceTree = "<group>"; };
 		F0F7360687CCF391472E228B09449748 /* Pods-TestTwoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestTwoTests.modulemap"; sourceTree = "<group>"; };
 		F8241B6260BBA05A4876F6851266F33D /* Pods-TestTwoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestTwoTests-resources.sh"; sourceTree = "<group>"; };
 		FC9A20EA8025F67EE968C192C32AC8DF /* Pods-TestTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,31 +105,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F08D6AAC5F3212BEF9AE67BA27BB985 /* Pods */ = {
+		007B2DD257A5EE864C1BAD7389D7215A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26382BECC33D3A0DB32AEEFB179E5805 /* AppCenter */,
+				BD489CE0CC1A7D81815C5000387851FB /* AppCenterAnalytics.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		26382BECC33D3A0DB32AEEFB179E5805 /* AppCenter */ = {
+		4E9569E6C11D65F2A830BC8DEDE55DBE /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				532FCA275C043189A13FDDD5A9BDE415 /* Analytics */,
-				9EE13F7E6DB656EA069185A561AFA2DE /* Core */,
-				7887D30DE6098B8B49964BA5EDB1C9D5 /* Crashes */,
+				AAEE002756E4594EE05F753F5FE5FA81 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4F23C05264DCFC9473AE0733D8F2853A /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				A165067F8C931D2C85742D6B4FB304C3 /* Frameworks */,
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		5364D16F12C1704573AF8E776B05D1E5 /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				A07553EBE79A777A566BB7D08F489EE4 /* Analytics */,
+				4E9569E6C11D65F2A830BC8DEDE55DBE /* Core */,
+				EF9FEC41A271EB8FC7AAD0BEB08B8C36 /* Crashes */,
+				4F23C05264DCFC9473AE0733D8F2853A /* Push */,
 			);
 			name = AppCenter;
 			path = AppCenter;
-			sourceTree = "<group>";
-		};
-		532FCA275C043189A13FDDD5A9BDE415 /* Analytics */ = {
-			isa = PBXGroup;
-			children = (
-				A4258E8EA78F9E8E72A5B6E20E8F43D6 /* Frameworks */,
-			);
-			name = Analytics;
 			sourceTree = "<group>";
 		};
 		5A2837A51F4078AAE54D9F2E98094099 /* Pods-TestTwo */ = {
@@ -157,31 +167,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		66122652B1024E946ECEA52DFABA11A7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BD267D828AE1E034D07B6E89399D3E89 /* AppCenterCrashes.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7887D30DE6098B8B49964BA5EDB1C9D5 /* Crashes */ = {
-			isa = PBXGroup;
-			children = (
-				66122652B1024E946ECEA52DFABA11A7 /* Frameworks */,
-			);
-			name = Crashes;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0F08D6AAC5F3212BEF9AE67BA27BB985 /* Pods */,
+				88BAA8D6162961ACBFFF1C61E2A82436 /* Pods */,
 				F1714D22E6155E4444F3482FB04C0D3C /* Products */,
 				B6DEF47F5E570F859AEE080248A19DAB /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		88BAA8D6162961ACBFFF1C61E2A82436 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5364D16F12C1704573AF8E776B05D1E5 /* AppCenter */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		90C4BD7DCB6A2238CA7772B2896D4BD0 /* Pods-TestTwoUITests */ = {
@@ -220,18 +222,26 @@
 			path = "Target Support Files/Pods-TestTwoTests";
 			sourceTree = "<group>";
 		};
-		9EE13F7E6DB656EA069185A561AFA2DE /* Core */ = {
+		A07553EBE79A777A566BB7D08F489EE4 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				E39FB8A4CA783BA2FB45AFE8CCE436C4 /* Frameworks */,
+				007B2DD257A5EE864C1BAD7389D7215A /* Frameworks */,
 			);
-			name = Core;
+			name = Analytics;
 			sourceTree = "<group>";
 		};
-		A4258E8EA78F9E8E72A5B6E20E8F43D6 /* Frameworks */ = {
+		A165067F8C931D2C85742D6B4FB304C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5351CBD2DE9358535B624F45830298EA /* AppCenterAnalytics.framework */,
+				E37CA864159FBF3DEE874F4F3805C8EA /* AppCenterPush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAEE002756E4594EE05F753F5FE5FA81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9454C46A42EE2F6A8F78EBBD99E6347B /* AppCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -254,12 +264,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E39FB8A4CA783BA2FB45AFE8CCE436C4 /* Frameworks */ = {
+		EF9FEC41A271EB8FC7AAD0BEB08B8C36 /* Crashes */ = {
 			isa = PBXGroup;
 			children = (
-				275DEAAB07AB38756C25FF9F36046103 /* AppCenter.framework */,
+				F7731C429EAE0238B22E89DF57BC0F1B /* Frameworks */,
 			);
-			name = Frameworks;
+			name = Crashes;
 			sourceTree = "<group>";
 		};
 		F1714D22E6155E4444F3482FB04C0D3C /* Products */ = {
@@ -270,6 +280,14 @@
 				7C2018E8E63750B99ECDD1BBD0134FE4 /* Pods_TestTwoUITests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F7731C429EAE0238B22E89DF57BC0F1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53A158CE3C0C4CE842F9F8C142DB9821 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

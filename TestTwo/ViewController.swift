@@ -18,6 +18,9 @@ class ViewController: UIViewController {
     func add (a:Int,b:Int) -> Int {
         return a + b
     }
+    func minus(a:Int,b:Int) -> Int {
+        return a - b
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
